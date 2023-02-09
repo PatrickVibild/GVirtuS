@@ -59,9 +59,16 @@ This package are required:
     libgl-dev
     libosmesa-dev
     liblog4cplus-dev
+    curl
 
 Ubuntu:
-    sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev libosmesa-dev git liblog4cplus-dev
+    sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev libosmesa-dev git liblog4cplus-dev curl
+
+    install latest cmake https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line
+
+    Install https://developer.nvidia.com/cuda-10.2-download-archive run the script.
+
+    Install CUDA and CUDNN on ubuntu: https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805
 
 CentOS:
 
