@@ -40,14 +40,15 @@
 
 #include <cuda.h>
 
+// TODO commented code, having a redefinition error.
 #if CUDART_VERSION >= 11000
-struct __align__(8) fatBinaryHeader
-{
-  unsigned int           magic;
-  unsigned short         version;
-  unsigned short         headerSize;
-  unsigned long long int fatSize;
-};
+//struct __align__(8) fatBinaryHeader
+//{
+//  unsigned int           magic;
+//  unsigned short         version;s
+//  unsigned short         headerSize;
+//  unsigned long long int fatSize;
+//};
 #endif
 
 using namespace std;

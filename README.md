@@ -44,9 +44,9 @@ The GPU Virtualization Service (GVirtuS) presented in this work tries to fill th
 ## Prerequisites: ##
 GCC, G++ with C++17 extension (minmum version: 7)
 
-OS: CentOS 7.3, Ubuntu 18.04 (tested)
+OS: CentOS 7.3, Ubuntu 20.04 (tested)
 
-CUDA Toolkit: version 10.2
+CUDA Toolkit: version 11.0.2
 
 This package are required:
     build-essential
@@ -62,13 +62,8 @@ This package are required:
     curl
 
 Ubuntu:
+
     sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev libosmesa-dev git liblog4cplus-dev curl
-
-    install latest cmake https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line
-
-    Install https://developer.nvidia.com/cuda-10.2-download-archive run the script.
-
-    Install CUDA and CUDNN on ubuntu: https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805
 
 CentOS:
 
@@ -77,6 +72,14 @@ CentOS:
     sudo yum install devtoolset-8-gcc
 
     scl enable devtoolset-8 bash
+
+Dependencies:
+
+* [cmake](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
+* [Cuda toolkit and drivers update](https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805#68ce)
+  - [cuda toolkit 11](https://developer.nvidia.com/cuda-11.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=runfilelocal)
+  - [cuda toolkit 10.2](https://developer.nvidia.com/cuda-10.2-download-archive?target_os=Linux&target_arch=x86_64)
+* [Cuda and Cudnn for ubuntu](https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805)
 
 ## Installation: ##
 1) Clone the GVirtuS main repository
