@@ -101,7 +101,7 @@ By default GVirtuS will be installed in ${HOME}/GVirtuS; to override
 this behavior export the GVIRTUS_HOME variable before running cmake, i.e.:
 
 
-    export GVIRTUS_HOME=/opt/GVirtuS 
+    export GVIRTUS_HOME=~/GVirtuS 
 
 
 
@@ -172,7 +172,7 @@ $GVIRTUS\_HOME/etc/properties.json
 
 Export the dynamic GVirtuS library:
 
-    export LD_LIBRARY_PATH=${GVIRTUS_HOME}/lib/frontend:${GVIRTUS_HOME}/lib/frontend:${LD_LIBRARY_PATH}
+    export LD_LIBRARY_PATH=${GVIRTUS_HOME}/lib/frontend:${GVIRTUS_HOME}/lib:${LD_LIBRARY_PATH}
 
 Optionally set a different configuration file
 
