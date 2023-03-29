@@ -1,0 +1,2 @@
+export GVIRTUS_HOME=~/GVirtuS
+export LD_LIBRARY_PATH=${GVIRTUS_HOME}/lib/frontend:${GVIRTUS_HOME}/lib:${LD_LIBRARY_PATH}
